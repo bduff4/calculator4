@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         }
         
         if sender.selectedSegmentIndex == 1 {
-            // subtract
+         result =  subtract(num1: textOne, num2: textTwo)
         }
         
         if sender.selectedSegmentIndex == 2 {
