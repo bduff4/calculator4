@@ -31,6 +31,10 @@ class ViewController: UIViewController {
     
     
     //Divide: David
+    func divide(num1: Int, num2: Int) -> Int
+    {
+        return num1 / num2
+    }
     
     
     
