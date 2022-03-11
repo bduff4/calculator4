@@ -54,7 +54,10 @@ class ViewController: UIViewController {
     
     // Add: Colin
     
-    
+    func add(a: Double, b: Double) -> Double
+    {
+        return a + b
+    }
     
     // Subtract: Mr. Walter
     
