@@ -77,7 +77,7 @@ class ViewController: UIViewController {
     
     
     //Divide: David
-    func divide(num1: Int, num2: Int) -> Int
+    func divide(num1: Double, num2: Double) -> Double
     {
         return num1 / num2
     }
