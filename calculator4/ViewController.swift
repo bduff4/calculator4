@@ -34,6 +34,26 @@ class ViewController: UIViewController {
     
     @IBAction func segmentChanged(_ sender: UISegmentedControl)
     {
+        if sender.selectedSegmentIndex == 1 {
+            // add
+        }
+        
+        if sender.selectedSegmentIndex == 2 {
+            // divide
+        }
+        
+        if sender.selectedSegmentIndex == 3 {
+                // multiply
+        }
+        
+        if sender.selectedSegmentIndex == 4 {
+            // subtract
+        }
+        
+        if sender.selectedSegmentIndex == 5 {
+            // m
+        }
+        
         
     }
     
