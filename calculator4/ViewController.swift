@@ -32,8 +32,13 @@ class ViewController: UIViewController {
     
     @IBAction func segmentChanged(_ sender: UISegmentedControl)
     {
+        let textOne = Double(textField1.text!) ?? 0
+        let textTwo = Double(textField2.text!) ?? 0
+        
+        var result = 0.0
+        
         if sender.selectedSegmentIndex == 0 {
-            // add
+            result = add(a: textOne, b: textTwo)
         }
         
         if sender.selectedSegmentIndex == 1 {
@@ -41,31 +46,33 @@ class ViewController: UIViewController {
         }
         
         if sender.selectedSegmentIndex == 2 {
-                // multiply
+                multiply()
         }
         
         if sender.selectedSegmentIndex == 3 {
-            // divide
+            
         }
         
         if sender.selectedSegmentIndex == 4 {
             // mod
         }
         
-        
+        returnLabel.text = "\(result)"
     }
     
     
     // Multiply: Sabrina
     
-    func multiply()
+    func multiply(One: Double, Two: Double)-> Double
     {
-        let textOne = Double(textField1.text!) ?? 0
-        let textTwo = Double(textField2.text!) ?? 0
+//        let textOne = Double(textField1.text!) ?? 0
+//        let textTwo = Double(textField2.text!) ?? 0
+//
+//        let result = (text1 * text2)
+//
+//       returnLabel.text = "\(result)"
+        return One * Two
         
-        let result = (text1 * text2)
-       
-       returnLabel.text = "\(result)"
     }
     
     
