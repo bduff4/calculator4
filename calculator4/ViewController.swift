@@ -88,7 +88,7 @@ class ViewController: UIViewController {
     
     
     // Modulo: Jesse
-    func Mod(num1: Double, num2: Double) -> Double
+    func mod(num1: Double, num2: Double) -> Double
     {
         return num1.truncatingRemainder(dividingBy: num2)
         
