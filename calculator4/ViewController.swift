@@ -13,28 +13,39 @@ class ViewController: UIViewController {
     // Brennan, Colin, Jesse, Sabrina, David are amazing
     //Hello guys
     // hi
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
     }
-// david 
+// david
+    // sabrina 
 
+// Hey class. Sixers got beat bad yesterday
     
     
     
+    // Multiply: Sabrina
+    
+    
+    //Divide: David
     
     
     
+    // Add: Colin
     
     
     
+    // Subtract: Mr. Walter
+    
+    func subtract(num1: Double, num2: Double) -> Double
+    {
+        return num1 - num2
+    }
     
     
-    
-    
-    
-    
-    
-    
+    // Modulo: Jesse
 }
 
