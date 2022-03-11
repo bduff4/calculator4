@@ -55,6 +55,7 @@ class ViewController: UIViewController {
         
         if sender.selectedSegmentIndex == 4 {
             // mod
+            result = mod(num1: textOne, num2: textTwo)
         }
         
         returnLabel.text = "\(result)"
