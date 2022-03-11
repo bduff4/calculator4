@@ -29,6 +29,11 @@ class ViewController: UIViewController {
     
     // Multiply: Sabrina
     
+    func multiply(One: Double, Two: Double) -> Double
+    {
+        return One * Two
+    }
+    
     
     //Divide: David
     
