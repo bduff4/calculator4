@@ -46,7 +46,8 @@ class ViewController: UIViewController {
         }
         
         if sender.selectedSegmentIndex == 2 {
-                multiply()
+             result = multiply(One: textOne, Two: textTwo)
+    
         }
         
         if sender.selectedSegmentIndex == 3 {
