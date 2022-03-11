@@ -39,8 +39,17 @@ class ViewController: UIViewController {
     
     // Multiply: Sabrina
     
+    func multiply(One: Double, Two: Double) -> Double
+    {
+        return One * Two
+    }
+    
     
     //Divide: David
+    func divide(num1: Int, num2: Int) -> Int
+    {
+        return num1 / num2
+    }
     
     
     
