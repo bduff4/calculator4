@@ -23,8 +23,6 @@ class ViewController: UIViewController {
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        
     }
 // david
     // sabrina 
@@ -36,6 +34,7 @@ class ViewController: UIViewController {
     {
         
     }
+    
     
     // Multiply: Sabrina
     
@@ -55,7 +54,10 @@ class ViewController: UIViewController {
     
     // Add: Colin
     
-    
+    func add(a: Double, b: Double) -> Double
+    {
+        return a + b
+    }
     
     // Subtract: Mr. Walter
     
@@ -66,5 +68,10 @@ class ViewController: UIViewController {
     
     
     // Modulo: Jesse
+    func Mod(num1: Double, num2: Double) -> Double
+    {
+        return num1.truncatingRemainder(dividingBy: num2)
+        
+    }
 }
 
