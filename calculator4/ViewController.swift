@@ -11,10 +11,13 @@ class ViewController: UIViewController {
 
     
     // Brennan, Colin, Jesse, Sabrina, David are amazing
+    //Hello guys
+    // hi
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+// david 
 
 // Hey class. Sixers got beat bad yesterday
 }
