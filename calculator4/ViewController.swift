@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         }
         
         if sender.selectedSegmentIndex == 3 {
-                // multiply
+            multiply()
         }
         
         if sender.selectedSegmentIndex == 4 {
@@ -58,9 +58,14 @@ class ViewController: UIViewController {
     
     // Multiply: Sabrina
     
-    func multiply(One: Double, Two: Double) -> Double
+    func multiply()
     {
-        return One * Two
+        let textOne = Double(textField1.text!) ?? 0
+        let textTwo = Double(textField2.text!) ?? 0
+        
+        let result = (text1 * text2)
+       
+       returnLabel.text = "\(result)"
     }
     
     
