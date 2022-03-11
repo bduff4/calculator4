@@ -9,7 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textField1: UITextField!
     
+    @IBOutlet weak var textField2: UITextField!
+    
+    @IBOutlet weak var multiplySegmentedControl: UISegmentedControl!
+    
+    @IBOutlet weak var returnLabel: UILabel!
     // Brennan, Colin, Jesse, Sabrina, David are amazing
     //Hello guys
     // hi
@@ -26,11 +32,25 @@ class ViewController: UIViewController {
 // Hey class. Sixers got beat bad yesterday
     
     
+    @IBAction func segmentChanged(_ sender: UISegmentedControl)
+    {
+        
+    }
+    
     
     // Multiply: Sabrina
     
+    func multiply(One: Double, Two: Double) -> Double
+    {
+        return One * Two
+    }
+    
     
     //Divide: David
+    func divide(num1: Int, num2: Int) -> Int
+    {
+        return num1 / num2
+    }
     
     
     
