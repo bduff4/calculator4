@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         }
         
         if sender.selectedSegmentIndex == 3 {
-            
+            result = divide(num1: textOne, num2: textTwo)
         }
         
         if sender.selectedSegmentIndex == 4 {
