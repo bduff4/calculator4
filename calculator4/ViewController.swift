@@ -55,6 +55,7 @@ class ViewController: UIViewController {
         
         if sender.selectedSegmentIndex == 4 {
             // mod
+            result = mod(num1: textOne, num2: textTwo)
         }
         
         returnLabel.text = "\(result)"
@@ -100,7 +101,7 @@ class ViewController: UIViewController {
     
     
     // Modulo: Jesse
-    func Mod(num1: Double, num2: Double) -> Double
+    func mod(num1: Double, num2: Double) -> Double
     {
         return num1.truncatingRemainder(dividingBy: num2)
         
